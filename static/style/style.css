@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image:url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+    background: linear-gradient(135deg, #52c4df, #ad55c1);
+    opacity: 0.6;
+}
+
+
+#titulo{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
